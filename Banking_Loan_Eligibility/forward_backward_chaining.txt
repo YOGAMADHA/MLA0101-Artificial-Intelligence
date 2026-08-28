@@ -1,0 +1,34 @@
+FORWARD AND BACKWARD CHAINING
+
+FORWARD CHAINING
+1. Start with known facts about an applicant.
+2. Check the production rules.
+3. If all conditions of a rule are true, infer eligibility.
+4. Continue until a conclusion is reached.
+
+Example:
+Income = 45000
+Credit Score = 750
+Employment = employed
+Existing Loan = no
+
+Facts satisfy Rule 1.
+Therefore:
+Eligible = TRUE
+
+BACKWARD CHAINING
+1. Start with the goal: Eligible(applicant).
+2. Find a rule that can prove the goal.
+3. Check each condition in that rule.
+4. If all conditions are true, the goal is proved.
+
+Goal:
+Eligible(Ravi)
+
+Required:
+Income >= 30000
+Credit Score >= 700
+Employed
+No existing loan
+
+All are true, so Ravi is eligible.

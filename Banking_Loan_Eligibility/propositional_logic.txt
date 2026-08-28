@@ -1,0 +1,22 @@
+PROPOSITIONAL LOGIC REPRESENTATION
+
+Let:
+I = Income requirement is satisfied
+C = Credit score requirement is satisfied
+E = Applicant is employed
+L = Applicant has no existing loan
+A = Applicant is eligible
+
+Rule 1:
+(I AND C AND E AND L) -> A
+
+For the second rule:
+I2 = Income is at least 50000
+C2 = Credit score is at least 650
+
+(I2 AND C2 AND E AND L) -> A
+
+If neither rule is satisfied:
+NOT A
+
+Propositional logic represents each condition as a true/false proposition.

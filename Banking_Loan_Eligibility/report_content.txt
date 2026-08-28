@@ -1,0 +1,54 @@
+BANKING LOAN ELIGIBILITY EXPERT SYSTEM
+
+1. INTRODUCTION
+The Banking Loan Eligibility Expert System is a rule-based artificial
+intelligence application. It determines whether an applicant satisfies
+basic loan eligibility conditions using logical reasoning.
+
+2. OBJECTIVE
+The main objective is to demonstrate the use of production rules,
+propositional logic, first-order logic, forward chaining, backward chaining,
+and Prolog in a banking decision-support scenario.
+
+3. INPUTS
+- Monthly income
+- Credit score
+- Employment status
+- Existing loan status
+
+4. KNOWLEDGE BASE
+Rule 1: Income >= 30000, credit score >= 700, employed, and no existing loan
+imply eligibility.
+
+Rule 2: Income >= 50000, credit score >= 650, employed, and no existing loan
+imply eligibility.
+
+5. INFERENCE
+Forward chaining starts from applicant facts and applies matching rules.
+Backward chaining starts from the eligibility goal and checks whether the
+required conditions can be proved.
+
+6. PROLOG IMPLEMENTATION
+The Prolog program stores the eligibility rules as logical predicates.
+A query supplies the applicant details and returns either eligible(Name) or
+not_eligible(Name).
+
+7. SAMPLE RESULT
+Ravi with income 45000, credit score 750, employed status, and no existing
+loan is eligible because Rule 1 is satisfied.
+
+8. ADVANTAGES
+- Simple rule-based decision making
+- Easy to understand and modify
+- Demonstrates AI knowledge representation
+- Suitable for academic demonstration
+
+9. LIMITATIONS
+This is an educational prototype. Real banking decisions require additional
+factors such as debt-to-income ratio, loan amount, repayment history,
+documents, regulatory requirements, and bank-specific policies.
+
+10. CONCLUSION
+The project demonstrates how logical rules can be used to build a basic
+banking loan eligibility expert system. It shows the relationship between
+knowledge representation and inference techniques in AI.

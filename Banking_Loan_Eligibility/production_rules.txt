@@ -1,0 +1,21 @@
+BANKING LOAN ELIGIBILITY - PRODUCTION RULES
+
+Rule 1:
+IF income >= 30000 AND credit_score >= 700
+AND employment = employed AND existing_loan = no
+THEN applicant is eligible.
+
+Rule 2:
+IF income >= 50000 AND credit_score >= 650
+AND employment = employed AND existing_loan = no
+THEN applicant is eligible.
+
+Rule 3:
+IF the applicant does not satisfy any eligibility rule
+THEN applicant is not eligible.
+
+Facts considered:
+- Monthly income
+- Credit score
+- Employment status
+- Existing loan status

@@ -1,0 +1,36 @@
+TEST CASES
+
+1. Ravi
+Income: 45000
+Credit Score: 750
+Employment: employed
+Existing Loan: no
+Expected: ELIGIBLE
+
+2. Priya
+Income: 25000
+Credit Score: 800
+Employment: employed
+Existing Loan: no
+Expected: NOT ELIGIBLE
+
+3. Arun
+Income: 55000
+Credit Score: 680
+Employment: employed
+Existing Loan: no
+Expected: ELIGIBLE
+
+4. Meena
+Income: 60000
+Credit Score: 700
+Employment: unemployed
+Existing Loan: no
+Expected: NOT ELIGIBLE
+
+5. Karthik
+Income: 70000
+Credit Score: 750
+Employment: employed
+Existing Loan: yes
+Expected: NOT ELIGIBLE

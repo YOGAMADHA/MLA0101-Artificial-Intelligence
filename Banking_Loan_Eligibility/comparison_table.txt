@@ -1,0 +1,18 @@
+COMPARISON TABLE
+
+Concept                  | Main Idea                              | Example
+-------------------------|-----------------------------------------|-----------------------------
+Production Rules         | IF-THEN rules                           | IF income high THEN eligible
+Propositional Logic      | True/false propositions                 | I AND C AND E -> A
+First-Order Logic        | Variables and predicates                | Eligible(x)
+Forward Chaining         | Facts -> conclusion                     | Facts trigger rules
+Backward Chaining        | Goal -> required facts                  | Prove Eligible(x)
+Prolog                   | Logic programming language             | eligible(...) predicate
+
+Conclusion:
+Production rules are simple and readable.
+Propositional logic is useful for Boolean conditions.
+First-order logic handles variables and relationships.
+Forward chaining is data-driven.
+Backward chaining is goal-driven.
+Prolog supports both logical reasoning styles.

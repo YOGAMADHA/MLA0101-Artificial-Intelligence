@@ -1,0 +1,28 @@
+FIRST-ORDER LOGIC REPRESENTATION
+
+Predicates:
+Income(x, n)
+CreditScore(x, s)
+Employed(x)
+NoExistingLoan(x)
+Eligible(x)
+
+Rules:
+
+1. For every applicant x:
+   (Income(x, n) AND n >= 30000 AND
+    CreditScore(x, s) AND s >= 700 AND
+    Employed(x) AND NoExistingLoan(x))
+   -> Eligible(x)
+
+2. For every applicant x:
+   (Income(x, n) AND n >= 50000 AND
+    CreditScore(x, s) AND s >= 650 AND
+    Employed(x) AND NoExistingLoan(x))
+   -> Eligible(x)
+
+3. If no eligibility rule can be inferred for x:
+   -> NotEligible(x)
+
+First-order logic allows variables such as x, n and s and represents relationships
+between an applicant and their attributes.
